@@ -1,0 +1,40 @@
+.time-table-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  border: 1px solid steelblue;
+}
+
+.time-table {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-self: center;
+}
+
+.one-hour-box {
+  display: flex;
+}
+
+.ten-minute-box {
+  background: pink;
+  border: 1px solid black;
+}
+
+.one-hour-box:nth-last-of-type(2n) > div {
+  background: rgb(31, 253, 235);
+}
+
+.time-table-header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  margin: 3vh 0;
+}
+
+.separator-left,
+.separator-right {
+  border-top: 1px solid black;
+  flex: 1 1 3vw;
+}
