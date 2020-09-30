@@ -1,7 +1,7 @@
 {
-  "name": "express-api-starter",
-  "version": "1.2.0",
-  "description": " A basic starter for an express.js API",
+  "name": "planner-express-app",
+  "version": "0.1",
+  "description": " 10 minute planner app express backend",
   "main": "index.js",
   "scripts": {
     "start": "node src/index.js",
@@ -10,10 +10,10 @@
     "test": "mocha --exit"
   },
   "keywords": [],
-  "author": "CJ R. <cj@null.computer> (https://w3cj.now.sh)",
+  "author": "Jeremy Hage <jhage.codingkr@gmail.com> (jeremyhage.dev)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/w3cj/express-api-starter.git"
+    "url": "https://github.com/Kimchi-Coder/planner-app"
   },
   "license": "MIT",
   "dependencies": {
