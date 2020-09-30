@@ -1,6 +1,6 @@
 {
   "name": "planner-express-app",
-  "version": "0.1",
+  "version": "0.1.0",
   "description": " 10 minute planner app express backend",
   "main": "index.js",
   "scripts": {
@@ -21,6 +21,7 @@
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "helmet": "^3.23.3",
+    "mongoose": "^5.10.7",
     "morgan": "^1.10.0"
   },
   "devDependencies": {
